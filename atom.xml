@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xinmenti.newmt.top/blog/"/>
+  <link href="http://xinmenti.newmt.top/"/>
   <updated>2017-08-03T11:10:11.185Z</updated>
-  <id>http://xinmenti.newmt.top/blog/</id>
+  <id>http://xinmenti.newmt.top/</id>
   
   <author>
     <name>Gdreamer</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>前端知识体系</title>
-    <link href="http://xinmenti.newmt.top/blog/2016/01/16/test/"/>
-    <id>http://xinmenti.newmt.top/blog/2016/01/16/test/</id>
+    <link href="http://xinmenti.newmt.top/2016/01/16/test/"/>
+    <id>http://xinmenti.newmt.top/2016/01/16/test/</id>
     <published>2016-01-16T05:58:41.000Z</published>
     <updated>2017-08-03T11:10:11.185Z</updated>
     
@@ -31,12 +31,12 @@
     
     </summary>
     
-      <category term="HTML 书籍" scheme="http://xinmenti.newmt.top/blog/categories/HTML-%E4%B9%A6%E7%B1%8D/"/>
+      <category term="HTML 书籍" scheme="http://xinmenti.newmt.top/categories/HTML-%E4%B9%A6%E7%B1%8D/"/>
     
-      <category term="HTML 书籍" scheme="http://xinmenti.newmt.top/blog/categories/HTML-%E4%B9%A6%E7%B1%8D/HTML-%E4%B9%A6%E7%B1%8D/"/>
+      <category term="HTML 书籍" scheme="http://xinmenti.newmt.top/categories/HTML-%E4%B9%A6%E7%B1%8D/HTML-%E4%B9%A6%E7%B1%8D/"/>
     
     
-      <category term="HTML 标签" scheme="http://xinmenti.newmt.top/blog/tags/HTML-%E6%A0%87%E7%AD%BE/"/>
+      <category term="HTML 标签" scheme="http://xinmenti.newmt.top/tags/HTML-%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
