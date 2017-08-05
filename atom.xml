@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Gdreamer的blog</title>
-  <subtitle>我挥舞着键盘和本子，发誓要把世界写个明明白白。</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xinmenti.newmt.top/blog/"/>
