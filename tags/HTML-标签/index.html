@@ -2,12 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="baidu-site-verification" content="L6Lm9d5Crl"/>
-  
-   
-    <meta name="keywords" content="HTML 标签" />
-  
-  
   
   <title>Tag: HTML 标签 | Gdreamer的blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -24,7 +18,7 @@
     <link rel="icon" href="/img/favicon.png">
   
   
-  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
   
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
@@ -38,6 +32,7 @@
     <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
   <script>
       var yiliaConfig = {
+          rootUrl: '/',
           fancybox: true,
           animate: true,
           isHome: false,
@@ -55,68 +50,17 @@
     <div class="overlay"></div>
 <div class="intrude-less">
     <header id="header" class="inner">
-        <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
         <a href="/" class="profilepic">
             
-            <img lazy-src="/img/avatar.png" class="js-avatar">
+            <img lazy-src="/img/head.jpg" class="js-avatar">
             
         </a>
+
         <hgroup>
-          <h1 class="header-author"><a href="/">Gdreamer</a></h1>
-	  <p style="color:white; font-size:13px;line-height: 22px;">我挥舞着键盘和本子,发誓要把世界写个明明白白</p>
+          <h1 class="header-author"><a href="/" title="Hi Mate">Gdreamer</a></h1>
         </hgroup>
+
         
-        
-            <form>
-                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder=" Search...">
-            </form>
-            <div id="local-search-result"></div>
-        
-        
-            <script type="text/javascript">
-                (function() {
-                    'use strict';
-                    function getMatchData(keyword, data) {
-                        var matchData = [];
-                        for(var i =0;i<data.length;i++){
-                            if(data[i].title.toLowerCase().indexOf(keyword)>=0) 
-                                matchData.push(data[i])
-                        }
-                        return matchData;
-                    }
-                    var $input = $('#local-search-input');
-                    var $resultContent = $('#local-search-result');
-                    $input.keyup(function(){
-                        $.ajax({
-                            url: '/search.json',
-                            dataType: "json",
-                            success: function( json ) {
-                                var str='<ul class=\"search-result-list\">';                
-                                var keyword = $input.val().trim().toLowerCase();
-                                $resultContent.innerHTML = "";
-                                if ($input.val().trim().length <= 0) {
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                }
-                                var results = getMatchData(keyword, json);
-                                if(results.length === 0){
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                } 
-                                for(var i =0; i<results.length; i++){
-                                    str += "<li><a href='"+ results[i].url +"' class='search-result-title'>"+ results[i].title +"</a></li>";
-                                }
-                                str += "</ul>";
-                                $resultContent.empty();
-                                $resultContent.append(str);
-                                $('#switch-area').hide();
-                            }
-                        });
-                    });
-                })();
-            </script>
         
         
             <div id="switch-btn" class="switch-btn">
@@ -142,6 +86,7 @@
                         </div>
                         
                     </div>
+                    
                 </div>
                 <div class="tips-box hide">
                     <div class="tips-arrow"></div>
@@ -158,34 +103,44 @@
                 </div>
             </div>
         
+
         <div id="switch-area" class="switch-area">
             <div class="switch-wrap">
                 <section class="switch-part switch-part1">
                     <nav class="header-menu">
                         <ul>
                         
-                            <li><a  href="/archives/">所有文章</a></li>
+                            <li><a href="/Home">博客首页</a></li>
                         
-                            <li><a  href="/message/">留言打卡</a></li>
+                            <li><a href="/works">作品展示</a></li>
                         
-                            <li><a  href="/front/">前端导航</a></li>
+                            <li><a href="/about">留言打卡</a></li>
                         
-                            <li><a  href="/about/">关于我</a></li>
+                            <li><a href="/FrontEndGuide">前端导航</a></li>
                         
                         </ul>
                     </nav>
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fl github"  target="_blank" href="https://github.com/DGdreamer" title="github">github</a>
+                                <a class="fl mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E" title="mail">mail</a>
                             
-                                <a class="fl weibo"  target="_blank" href="http://weibo.com/DGdreamer" title="weibo">weibo</a>
+                                <a class="fl github" target="_blank" href="https://github.com/luuman" title="github">github</a>
                             
-                                <a class="fl rss"  target="_blank" href="/atom.xml" title="rss">rss</a>
+                                <a class="fl zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+                            
+                                <a class="fl weibo" target="_blank" href="#" title="weibo">weibo</a>
+                            
+                                <a class="fl google" target="_blank" href="#" title="google">google</a>
+                            
+                                <a class="fl twitter" target="_blank" href="#" title="twitter">twitter</a>
+                            
+                                <a class="fl linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
                             
                         </ul>
                     </nav>
                 </section>
+                
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
@@ -194,54 +149,55 @@
                 </section>
                 
                 
+                
                 <section class="switch-part switch-part3">
                     <div id="js-friends">
                     
-                      <a target="_blank"  class="main-nav-link switch-friends-link" href="http://luuman.github.io/">没朋友</a>
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://luuman.github.io/">name</a>
                     
                     </div>
                 </section>
                 
+
                 
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">web前端开发者-Gdreamer,爱陈一发儿,山里女主播，清纯不做作，斗鱼Tv-67373!</div>
+                    <div id="js-aboutme">纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中</div>
                 </section>
                 
             </div>
         </div>
-    </header>
+    </header>                
 </div>
-
     </div>
     <div class="mid-col">
       <nav id="mobile-nav">
       <div class="overlay">
           <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Gdreamer</a></h1>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="Me">Gdreamer</a></h1>
       </div>
     <div class="intrude-less">
         <header id="header" class="inner">
             <a href="/" class="profilepic">
                 
-                    <img lazy-src="/img/avatar.png" class="js-avatar">
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
                 
             </a>
             <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">Gdreamer</a></h1>
+              <h1 class="header-author"><a href="/" title="Me">Gdreamer</a></h1>
             </hgroup>
             
             <nav class="header-menu">
                 <ul>
                 
-                    <li><a href="/archives/">所有文章</a></li>
+                    <li><a href="/Home">博客首页</a></li>
                 
-                    <li><a href="/message/">留言打卡</a></li>
+                    <li><a href="/works">作品展示</a></li>
                 
-                    <li><a href="/front/">前端导航</a></li>
+                    <li><a href="/about">留言打卡</a></li>
                 
-                    <li><a href="/about/">关于我</a></li>
+                    <li><a href="/FrontEndGuide">前端导航</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -249,11 +205,19 @@
             <nav class="header-nav">
                 <div class="social">
                     
-                        <a class="github" target="_blank" href="https://github.com/DGdreamer" title="github">github</a>
+                        <a class="mail" target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E" title="mail">mail</a>
                     
-                        <a class="weibo" target="_blank" href="http://weibo.com/DGdreamer" title="weibo">weibo</a>
+                        <a class="github" target="_blank" href="https://github.com/luuman" title="github">github</a>
                     
-                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+                        <a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+                    
+                        <a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+                    
+                        <a class="google" target="_blank" href="#" title="google">google</a>
+                    
+                        <a class="twitter" target="_blank" href="#" title="twitter">twitter</a>
+                    
+                        <a class="linkedin" target="_blank" href="#" title="linkedin">linkedin</a>
                     
                 </div>
             </nav>
@@ -269,7 +233,7 @@
       
       <section class="archives-wrap">
         <div class="archive-year-wrap">
-          <a  href="/archives/2016" class="archive-year">2016</a>
+          <a href="/archives/2016" class="archive-year">2016</a>
         </div>
         <div class="archives">
     
@@ -277,18 +241,16 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
           <div class="article-meta">
-              <a  href="/2016/01/16/test/" class="archive-article-date">
+              <a href="/2016/01/16/test/" class="archive-article-date">
       <time datetime="2016-01-16T05:58:41.000Z" itemprop="datePublished">01-16</time>
 </a>
-
         </div>
          
   
     <h1 itemprop="name">
-      <a  class="archive-article-title" href="/2016/01/16/test/">前端知识体系</a>
+      <a class="archive-article-title" href="/2016/01/16/test/">前端知识体系</a>
     </h1>
   
-
 
         <div class="article-info info-on-archive">
           
@@ -314,7 +276,6 @@
 
     
 
-
 </div>
       <footer id="footer">
     <div class="outer">
@@ -323,15 +284,14 @@
                 &copy; 2017 Gdreamer
             </div>
             <div class="footer-right">
-	    <p>技术支持</p><br>
-	    <p>Hexo&&Github</p>
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
             </div>
         </div>
         
             <div class="visit">
                 
                     <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" >网站访问量: 
+                        <span id="site-visit" >海贼到访数: 
                             <span id="busuanzi_value_site_uv"></span>
                         </span>
                     </span>
@@ -352,12 +312,12 @@
 </footer>
 
     </div>
-    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 <script src="/js/main.js"></script>
 
     <script>
         $(document).ready(function() {
-            var backgroundnum = 4;
+            var backgroundnum = 24;
             var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
             $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
             $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
@@ -365,30 +325,6 @@
     </script>
 
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'xxxxx', 'auto');
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
-
-
-
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?xxxxxx";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
 
 
 
@@ -406,7 +342,7 @@ ga('send', 'pageview');
 </script>
 
     <button class="hide-labels">TAG 开关</button>
-    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
     </script>
     <script>
         $(document).ready(function() {
@@ -426,6 +362,7 @@ ga('send', 'pageview');
             var title = a.attr('title');
             if (title == undefined || title == "") return;
             a.data('title', title).removeAttr('title').hover(
+
             function() {
                 var offset = a.offset();
                 $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
