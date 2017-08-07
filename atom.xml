@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xinmenti.newmt.top/"/>
-  <updated>2017-08-07T09:35:59.225Z</updated>
+  <updated>2017-08-07T10:26:45.916Z</updated>
   <id>http://xinmenti.newmt.top/</id>
   
   <author>
@@ -14,6 +14,101 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github常用命令行</title>
+    <link href="http://xinmenti.newmt.top/2017/08/07/Github/"/>
+    <id>http://xinmenti.newmt.top/2017/08/07/Github/</id>
+    <published>2017-08-07T10:24:20.000Z</published>
+    <updated>2017-08-07T10:26:45.916Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong> Github：</strong><excerpt in="" index="" |="" 首页摘要=""><br>Github常用命令行的整理<br> <a id="more"></a></excerpt></p>
+<h2 id="Github常用命令行"><a href="#Github常用命令行" class="headerlink" title="Github常用命令行"></a>Github常用命令行</h2><ol>
+<li><blockquote>
+<p><strong>git init</strong>  初始化</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git clone</strong> 克隆仓库</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git add</strong> 添加跟踪</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git status</strong> 查看跟踪</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>echo “This is a simple practise” &gt; readme.txt</strong> 创建文件</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git commit -m “This is my first commit via Git!”</strong> 提交</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git log</strong> 查看日志</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git branch</strong> 查看当前有哪些分支</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git checkout -b feature</strong> 创建一个名为feature的分支</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git checkout commitId</strong> 回到某一历史版本</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git checkout master</strong> 回到最新代码</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p><strong>git push 或者 git pull</strong> 推送到远程主机</p>
+<h2 id="修改步骤"><a href="#修改步骤" class="headerlink" title="修改步骤"></a>修改步骤</h2></blockquote>
+</li>
+<li><blockquote>
+<p>下载新代码：<strong>git pull</strong>。</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>从master出捡出一个新的分支：<strong>git checkout -b feature</strong>。feature是分支名称，你可以随意取名，但请用英文。</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>在feature分支上随意修改，改完后你可以提交你的修改：<strong>git commit -m “some message”</strong>。</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>此时要同步代码，请先切回主分支：<strong>git checkout master</strong>，然后更新<strong>git pull</strong>。</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>如果想删除自己建立的分支，使用<strong>git branch -D feature</strong>，注意执行此命令后分支被强制删除，无法恢复。</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt; Github：&lt;/strong&gt;&lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;Github常用命令行的整理&lt;br&gt;
+    
+    </summary>
+    
+      <category term="开发工具" scheme="http://xinmenti.newmt.top/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="开源" scheme="http://xinmenti.newmt.top/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="Github" scheme="http://xinmenti.newmt.top/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>Bootstrap</title>
