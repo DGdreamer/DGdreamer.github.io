@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xinmenti.newmt.top/"/>
-  <updated>2017-08-03T11:10:11.185Z</updated>
+  <updated>2017-08-07T09:20:32.455Z</updated>
   <id>http://xinmenti.newmt.top/</id>
   
   <author>
@@ -14,6 +14,92 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bootstrap</title>
+    <link href="http://xinmenti.newmt.top/2017/08/07/bootstrap/"/>
+    <id>http://xinmenti.newmt.top/2017/08/07/bootstrap/</id>
+    <published>2017-08-07T09:18:30.000Z</published>
+    <updated>2017-08-07T09:20:32.455Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong> Bootstrap：</strong><excerpt in="" index="" |="" 首页摘要=""><br>关于Bootstrap框架的整理<br> <a id="more"></a></excerpt></p>
+<h1 id="Bootstrap"><a href="#Bootstrap" class="headerlink" title="Bootstrap"></a>Bootstrap</h1><hr>
+<p>[TOC]</p>
+<hr>
+<h2 id="Bootstrap简介"><a href="#Bootstrap简介" class="headerlink" title="* Bootstrap简介"></a>* Bootstrap简介</h2><p>1、 <strong>什么是Bootstrap？</strong><br>    Bootstrap是由两位设计开发的。<br>    Bootstrap主要是前端的框架(HTML、CSS、JS)。</p>
+<p>2、 <strong>为什么使用Bootstrap或者Bootstrap有什么样的特点？</strong></p>
+<ul>
+<li>学习比较简单，只要有了HTML、CSS、JS基础，就可以学习。</li>
+<li>响应式布局。</li>
+<li><h2 id="移动设备优先。"><a href="#移动设备优先。" class="headerlink" title="移动设备优先。"></a>移动设备优先。</h2></li>
+<li>Bootstrap环境安装</li>
+<li>Bootstrap下载<br><img src="http://i2.bvimg.com/567044/32ee6f6c84161029.png" alt="Markdown"><br><img src="http://i1.bvimg.com/567044/7ca8662959b2ed26.png" alt="Markdown"><br><img src="http://i1.bvimg.com/567044/ec27b009bcea4a57.png" alt="Markdown"><br><strong>要想使用Bootstrap必须要加载jquery</strong><br><img src="http://i1.bvimg.com/567044/885c01a9ff651b8e.png" alt="Markdown"></li>
+</ul>
+<hr>
+<h2 id="Bootstrap基本模板"><a href="#Bootstrap基本模板" class="headerlink" title="* Bootstrap基本模板"></a>* Bootstrap基本模板</h2><p>1、HTML5文档类型定义<br><strong>Boostrap的文档是基于HTML5的。因此，要使用HTML5的文档类型定义(DTD)。</strong><br><img src="http://i1.bvimg.com/567044/cfc8b58477af3527.png" alt="Markdown"><br>2、字符集设置<br><img src="http://i1.bvimg.com/567044/7fe3406d1cdf66b9.png" alt="Markdown"><br>3、移动设备优先<br><img src="http://i1.bvimg.com/567044/330b578a96569cb5.png" alt="Markdown"><br>4、引入CSS和JS文件<br><img src="http://i1.bvimg.com/567044/30dbee067d6b408d.png" alt="Markdown"><br><img src="http://i1.bvimg.com/567044/b84714d237910109.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS全局样式"><a href="#CSS全局样式" class="headerlink" title="* CSS全局样式"></a>* CSS全局样式</h2><p>1、布局容器类样式：.container 和 .container-fluid<br><strong>.container固定宽度并且具有响应式。</strong><br><strong>.container-fluid自由宽度(100%宽度)。</strong><br><img src="http://i2.bvimg.com/567044/243f1494554eb6d8.png" alt="Markdown"><br><strong>马克飞象</strong>是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：</p>
+<p> 2、标题样式：.h1 ~ .h6<br> <strong>h1……h6样式重写了，基本上做到了兼容性</strong></p>
+<p> 3、行内文本样式：<br> <strong>b：加粗</strong><br><strong>strong加粗</strong><br><strong>i：斜体</strong><br><strong>em:斜体，HTML5新标记</strong><br><strong>del:删除线，HTML5新标记</strong><br><strong>s:删除线</strong></p>
+<p>4、文本对齐样式：.text-left、.text-center、.text-right、.text-justify<br><strong>.text-left：文本左对齐</strong><br><strong>.text-right：右对齐</strong><br><strong>.text-center：居中对齐</strong><br><strong>.text-justify：两端对齐</strong><br><img src="http://i4.bvimg.com/567044/c477a54b306be5c4.png" alt="Markdown"></p>
+<p>5、列表样式：<br><strong>.list-unstyled(无符号)：去掉前面的符号</strong><br><strong>.list-inline(行内块)</strong><br><img src="http://i4.bvimg.com/567044/09b5265910ea1735.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/d1a9975a269937f3.png" alt="Markdown"></p>
+<hr>
+<h2 id="表格样式"><a href="#表格样式" class="headerlink" title="* 表格样式"></a>* 表格样式</h2><p>1、.table ：表格全局样式(少量padding和水平方向的分割线)。<br><img src="http://i4.bvimg.com/567044/ed736677794eb58b.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/a0765b71077671f1.png" alt="Markdown"></p>
+<p>2、.table-striped：有条纹的背景色行(隔行变色)<br><img src="http://i4.bvimg.com/567044/2e8b41ed9e60d7e0.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/be591a86fec0afd8.png" alt="Markdown"></p>
+<p>3、.table-bordered：带边框的表格<br><img src="http://i2.bvimg.com/567044/1a5aae8d7773a557.png" alt="enter image description here"><br><img src="http://i2.bvimg.com/567044/2032f383413bc78e.png" alt="enter image description here"></p>
+<p>4、.table-hover：鼠标悬停效果(放上变色、离开恢复)<br><img src="http://i2.bvimg.com/567044/2d69b935c67fcc4d.png" alt="Markdown"></p>
+<p>5、.table-condensed：紧凑的表格(单元格内补会减半)<br><img src="http://i4.bvimg.com/567044/085b3b391650c8f6.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/cc30506a90930aa6.png" alt="Markdown"></p>
+<p>6、行或单元格背景色：<br><strong>.active：当前样式</strong><br><strong>.success</strong><br><strong>.info</strong><br><strong>.warning</strong><br><strong>.Danger</strong><br><img src="http://i4.bvimg.com/567044/fba0b517aa4427e7.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/120277e48fa3f5f2.png" alt="Markdown"></p>
+<p>7、响应式表格：<br><strong>将.table元素包裹在.table-responsive元素内，即可创建响应式表格</strong><br>    <strong>当屏幕宽度小于768px时，表格会出现滚动条。</strong><br>    <strong>当屏幕宽度大于768px时，表格的滚动条自然消失。</strong><br><img src="http://i4.bvimg.com/567044/9659b2d4fe53f4c8.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/bcb50565268c5d18.png" alt="Markdown"></p>
+<hr>
+<h2 id="表单样式"><a href="#表单样式" class="headerlink" title="* 表单样式"></a>* 表单样式</h2><p><strong>.form-group表单组样式：将<label>和表单元素包含其中，可以获得更好的排列</label></strong><br><strong>.form-control表单元素样式：常用于input、textarea、select元素</strong></p>
+<p><strong>Placehoder属性</strong><br><strong>描述：给input添加提示信息的</strong><br><strong>说明：这个属性是HTML5新增加的</strong><br><img src="http://i2.bvimg.com/567044/4356adabf4ce1135.png" alt="Markdown"></p>
+<p><strong>.form-inline内联表单样式(用于form元素)：可以使元素一行排列</strong><br><img src="http://i4.bvimg.com/567044/289950c0706225cb.png" alt="Markdown"><br><img src="http://i2.bvimg.com/567044/b9988699672870e0.png" alt="Markdown"></p>
+<p><strong>.sr-only：可以用于隐藏元素</strong><br><img src="http://i2.bvimg.com/567044/5e0c94455e386f80.png" alt="Markdown"></p>
+<hr>
+<h2 id="解决IE低版本不支持HTML5元素的方法"><a href="#解决IE低版本不支持HTML5元素的方法" class="headerlink" title="* 解决IE低版本不支持HTML5元素的方法"></a>* 解决IE低版本不支持HTML5元素的方法</h2><p><img src="http://i4.bvimg.com/567044/34bae0df895cdb5d.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS全局样式——栅格系统"><a href="#CSS全局样式——栅格系统" class="headerlink" title="* CSS全局样式——栅格系统"></a>* CSS全局样式——栅格系统</h2><p>1、栅格系统介绍<br><strong>Bootstrap提供了一套响应式、移动设备优先的流式的栅格系统。</strong><br>    <strong>Bootstrap把一个容器或整个网页平均分成了12列。</strong><br>    <strong>Bootstrap的栅格系统，由一个行(.row)和多个列构成。</strong><br>    <strong>栅格系统通过行列的形式来创建网页布局。把具体的数据放入列当中。</strong><br>    <strong>注意：栅格系统，必须放在.container和.container-fluid之中。</strong></p>
+<p>2、栅格系统参数<br><img src="http://i4.bvimg.com/567044/e097a4fb5043a811.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/ce29a3aaa415c084.png" alt="Markdown"></p>
+<p>3、栅格系统的简单应用<br><img src="http://i4.bvimg.com/567044/cdd650dc86a700e8.png" alt="Markdown"><br><img src="http://i4.bvimg.com/567044/67f1b82473d805fa.png" alt="Markdown"><br><strong>注意：如果列数超出12列，则会自动换行。如果列数低于12列，则无所谓。</strong></p>
+<p>4、列偏移<br><strong>也就是指：一个栏向右偏移多少个列。</strong><br>    <strong>.col-md-offset-*</strong><br>    <strong>.col-md-offset-2  //指定的栏向右偏移2个列。</strong><br><img src="http://i4.bvimg.com/567044/da505ca21840b640.png" alt="Markdown"></p>
+<p><img src="http://i4.bvimg.com/567044/23482b66c7f5f4c3.png" alt="Markdown"></p>
+<p>5、列嵌套<br><strong>列嵌套：就是在某个栏中，再嵌套一个完整的栅格系统</strong><br><img src="http://i4.bvimg.com/567044/591b44ec4ddd1f83.png" alt="Markdown"></p>
+<hr>
+<h2 id="表单样式-1"><a href="#表单样式-1" class="headerlink" title="* 表单样式"></a>* 表单样式</h2><p><strong>.form-group表单组样式：将 label 和表单元素包含其中，可以获得更好的排列。</strong><br>    <strong>.form-control表单元素样式：常用于input、textarea、select元素。</strong><br>    <strong>.form-inline内联表单样式(用于form元素)：可以使元素一行排列。</strong><br>    <strong>.checkbox复选框样式</strong><br>    <strong>.radio单选框样式</strong><br>    <strong>.disabled可以禁用单选框或复选项的文本。</strong><br>    <strong>.form-horizontal水平排列的表单(用于form元素)。</strong><br>    <strong>.sr-only：可以用于隐藏元素。</strong><br>    <strong>.checkbox-inline 控制多个复选框元素在同一行显示。</strong><br>    <strong>.radio-inline控制多个单选框元素在同一行显示。</strong></p>
+<hr>
+<h2 id="按钮样式"><a href="#按钮样式" class="headerlink" title="* 按钮样式"></a>* 按钮样式</h2><p><strong>可作为按钮使用的元素：a、input、button</strong><br>    <strong>.btn：按钮的全局样式。input type = “button” class = “btn”</strong><br>    <strong>预定义样式：.btn-default、.btn-primary、.btn-success、.btn-info、.btn-warning、.btn-danger、.btn-link</strong><br>    <strong>.active按钮激活状态、.disabled按钮禁用状态</strong><br><strong>按钮尺寸：.btn-lg(大按钮)、.btn-sm(小按钮)、.btn-xs(超小按钮)</strong></p>
+<h2 id="btn-block：将按钮拉伸到撑满整个父元素。"><a href="#btn-block：将按钮拉伸到撑满整个父元素。" class="headerlink" title=".btn-block：将按钮拉伸到撑满整个父元素。"></a><strong>.btn-block：将按钮拉伸到撑满整个父元素。</strong></h2><h2 id="图片样式"><a href="#图片样式" class="headerlink" title="* 图片样式"></a>* 图片样式</h2><p><strong>.img-responsive：直接为图片添加该样式，可以实现响应式图片。</strong><br><strong>.center-block：图片居中样式，而不能使用text-center样式。</strong><br>    <strong>图片形状样式：.img-rounded(圆角图片)、.img-circle(圆形图片)、.img-thumbnail(边框圆角)</strong></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="http://i2.bvimg.com/567044/67841772c1acb39e.png" alt="Markdown"></h2><h2 id="辅助类样式"><a href="#辅助类样式" class="headerlink" title=" * 辅助类样式"></a> * 辅助类样式</h2><p><strong>文本颜色类：.text-muted(柔和的)、.text-primary、.text-success、.text-info、.text-warning、.text-danger</strong><br><strong>背景颜色类：.bg-primary、.bg-success、.bg-info、.bg-warning、.bg-danger</strong><br><strong>三角符号：span class = “caret”</strong><br><strong>快速浮动类：.pull-left(左浮动)、.pull-right(右浮动)</strong><br><strong>清除浮动：为父元素添加 .clearfix 可以清除浮动。</strong><br><strong>让内容块网页居中：div class = “center-block”</strong><br><img src="http://i2.bvimg.com/567044/f3f0614c36971b69.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——下拉菜单"><a href="#CSS组件——下拉菜单" class="headerlink" title="* CSS组件——下拉菜单"></a>* CSS组件——下拉菜单</h2><p><strong>.dropdown将下拉菜单触发器和下拉菜单包含在其中(下拉菜单父元素)。</strong><br><strong>data-toggle属性：下拉菜单触发器。取值为“dropdown”。</strong><br><strong>.dropdown-menu：给ul指定下拉菜单的样式。</strong><br><strong>.dropup：向上弹出的下拉菜单(下拉菜单父元素)。</strong><br><strong>下拉菜单对齐方式：.dropdown-menu-left和.dropdown-menu-right</strong><br><strong>.divider：为下拉菜单添加分隔线，用于将多个链接分组。</strong><br><strong>.disabled：禁用的菜单项。</strong><br><img src="http://i2.bvimg.com/567044/0e78093649ae22f2.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——按钮组"><a href="#CSS组件——按钮组" class="headerlink" title="* CSS组件——按钮组"></a>* CSS组件——按钮组</h2><p><strong>.btn-group：按钮组(可以实现将一组按钮放在同一行)。</strong><br><strong>.btn-toolbar：按钮组工具栏(将多个按钮组放在其中)。</strong><br><strong>按钮组的尺寸：.btn-group-lg、.btn-group-sm、.btn-group-xs</strong><br><strong>.btn-group-vertical：垂直排列的按钮组。</strong><br><img src="http://i2.bvimg.com/567044/e3c1187ed81f384d.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——按钮式下拉菜单"><a href="#CSS组件——按钮式下拉菜单" class="headerlink" title="* CSS组件——按钮式下拉菜单"></a>* CSS组件——按钮式下拉菜单</h2><p><strong>单按钮下拉菜单</strong><br><strong>分裂式按钮下拉菜单</strong><br><img src="http://i4.bvimg.com/567044/b0a611cf04da0e2b.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——输入框组"><a href="#CSS组件——输入框组" class="headerlink" title="* CSS组件——输入框组"></a>* CSS组件——输入框组</h2><p><strong>.input-group：只能用于文本框input，不能用于select和textarea。</strong><br>    <strong>.input-group-addon用于在input前后添加额外元素，赋给一个span元素即可。</strong><br>    <strong>注意：将.input-group-addon和input元素包在.input-group之中。</strong><br>    <strong>.input-group-lg 和 .input-group-sm 可以改变输入框组的尺寸。</strong><br>    <strong>.input-group-btn可以作为额外元素的按钮，应该是作为button的父元素。</strong><br><img src="http://i4.bvimg.com/567044/8aaba1d67bdcc89f.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——标签页-选项卡"><a href="#CSS组件——标签页-选项卡" class="headerlink" title="* CSS组件——标签页(选项卡)"></a>* CSS组件——标签页(选项卡)</h2><p><strong>.nav是标签页的基类</strong><br>    <strong>.nav-tabs是标签页类样式</strong><br>    <strong>.active是标签页的状态类(当前样式)</strong><br>    <strong>.nav-pills胶囊式标签页</strong><br>    <strong>.nav-stacked胶囊式标签页堆放排列(垂直排列)</strong><br><img src="http://i4.bvimg.com/567044/a0ca0b4fcc6462d5.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——导航条"><a href="#CSS组件——导航条" class="headerlink" title="* CSS组件——导航条"></a>* CSS组件——导航条</h2><p><strong>.navbar：导航栏的基类，用于 nav 元素。</strong><br><strong>.navbar-default：导航栏默认样式，用于 nav 元素。</strong><br><strong>.container是 nav 的子元素。导航栏内容都放入其中。</strong><br>  <strong>.navbar-header：导航栏头部样式。</strong><br>    <strong>.navbar-brand：设置品牌图标样式</strong><br>    <strong>.collapse是折叠导航栏的样式的基类。</strong><br>    <strong>.navbar-collapse是折叠导航栏样式。</strong><br>    <strong>.nav是导航栏的链接基类。</strong><br>    <strong>.navbar-nav是导航栏的链接样式。</strong><br>    <strong>.navbar-from：导航栏表单，可以使表单元素排在同一行。</strong><br>    <strong>.navbar-left 或 .navbar-right ：组件排列。导航链接、表单、按钮或文本对齐。</strong><br>    <strong>.navbar-btn：对于不在 form 中的 button 元素，实现垂直对齐。</strong><br>    <strong>.navbar-text：对于导航栏的普通文本有了行距和颜色，通常用于p元素。</strong><br>    <strong>.navbar-fixed-top：导航栏固定在顶部，用于 nav 元素。需要为 body 设置padding-top:70px</strong><br>    <strong>.navbar-fixed-bottom：导航栏固定在底部，用于 nav 元素。需要为 body 设置padding-bottom:70px;</strong><br>    <strong>.navbar-static-top：导航栏静止在顶部，用于 nav 元素。会随着滚动条移动而消失。</strong><br><strong>.navbar-inverse：可以实现反色导航栏，用于 nav 元素。</strong></p>
+<hr>
+<h2 id="CSS组件——路径导航"><a href="#CSS组件——路径导航" class="headerlink" title="* CSS组件——路径导航"></a>* CSS组件——路径导航</h2><p><strong>.breadcrumb：赋给 ol 可以实现面包屑效果。</strong><br><strong>.active赋给当前栏目，当前栏目不加链接。</strong><br><img src="http://i2.bvimg.com/567044/6f831bb6174278c8.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——缩略图"><a href="#CSS组件——缩略图" class="headerlink" title="* CSS组件——缩略图"></a>* CSS组件——缩略图</h2><p>.thumbnail赋给 a 元素，可以实现缩略图样式。<br>.caption 可以实现缩略图标题及描述<br><img src="http://i2.bvimg.com/567044/fa84af24364ea5a4.png" alt="Markdown"></p>
+<hr>
+<h2 id="CSS组件——分页"><a href="#CSS组件——分页" class="headerlink" title="* CSS组件——分页"></a>* CSS组件——分页</h2><p><strong>.pagination赋给 ul 元素可以实现分页效果</strong><br><strong>&amp; laquo; 上一页</strong><br><strong>&amp; raquo; 下一页</strong><br><strong>.disabled禁用状态</strong><br><strong>.active激活状态</strong><br><strong>.pagination-lg分页大尺寸</strong><br><strong>.pagination-sm分页小尺寸</strong><br><strong>.pager可以实现翻页效果。上一页、下一页效果。</strong><br><img src="http://i2.bvimg.com/567044/909286c8a56b21c1.png" alt="Markdown"></p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt; Bootstrap：&lt;/strong&gt;&lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;关于Bootstrap框架的整理&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>前端知识体系</title>
