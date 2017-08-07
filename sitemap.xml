@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://xinmenti.newmt.top/message/index.html</loc>
+    
+    <lastmod>2017-08-07T09:38:22.481Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://xinmenti.newmt.top/2017/08/07/bootstrap/</loc>
     
-    <lastmod>2017-08-07T09:20:32.455Z</lastmod>
+    <lastmod>2017-08-07T09:35:59.225Z</lastmod>
     
   </url>
   
@@ -26,20 +33,6 @@
     <loc>http://xinmenti.newmt.top/about/index.html</loc>
     
     <lastmod>2017-08-03T14:19:44.700Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xinmenti.newmt.top/message/index.html</loc>
-    
-    <lastmod>2017-08-03T14:16:28.010Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://xinmenti.newmt.top/2016/01/16/test/</loc>
-    
-    <lastmod>2017-08-03T11:10:11.185Z</lastmod>
     
   </url>
   

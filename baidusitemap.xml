@@ -3,45 +3,31 @@
 
 
     
+    
   <url>
     <loc>http://xinmenti.newmt.top/2017/08/07/bootstrap/</loc>
-    <lastmod>2017-08-07T09:20:32.455Z</lastmod>
+    <lastmod>2017-08-07T09:35:59.225Z</lastmod>
     <data>
         <display>
-        <title>bootstrap</title>
+        <title>Bootstrap</title>
         <pubTime>2017-08-07T09:18:30.000Z</pubTime>
         
+        <tag>HTML</tag>
          
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-    
-  <url>
-    <loc>http://xinmenti.newmt.top/2016/01/16/test/</loc>
-    <lastmod>2017-08-03T11:10:11.185Z</lastmod>
-    <data>
-        <display>
-        <title>前端知识体系</title>
-        <pubTime>2016-01-16T05:58:41.000Z</pubTime>
-        
-        <tag>HTML 标签</tag>
+        <tag>框架</tag>
+         
+        <tag>Bootstrap</tag>
          
          
            
              
-              <breadCrumb title="HTML 书籍" url="http://xinmenti.newmt.top/categories/HTML-%E4%B9%A6%E7%B1%8D/"/>
-          
-             
-              <breadCrumb title="HTML 书籍" url="http://xinmenti.newmt.top/categories/HTML-%E4%B9%A6%E7%B1%8D/HTML-%E4%B9%A6%E7%B1%8D/"/>
+              <breadCrumb title="前端开发" url="http://xinmenti.newmt.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
           
         </display>
     </data>
     </url>
 
+    
+    
+    
 </urlset>
