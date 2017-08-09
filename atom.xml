@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xinmenti.newmt.top/"/>
-  <updated>2017-08-07T10:30:15.457Z</updated>
-  <id>http://xinmenti.newmt.top/</id>
+  <link href="http://gdreamer.newmt.top/"/>
+  <updated>2017-08-08T07:58:20.627Z</updated>
+  <id>http://gdreamer.newmt.top/</id>
   
   <author>
     <name>Gdreamer</name>
@@ -16,11 +16,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>css3</title>
+    <link href="http://gdreamer.newmt.top/2017/08/08/css3/"/>
+    <id>http://gdreamer.newmt.top/2017/08/08/css3/</id>
+    <published>2017-08-08T07:04:58.000Z</published>
+    <updated>2017-08-08T07:58:20.627Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong> CSS3：</strong><excerpt in="" index="" |="" 首页摘要=""><br> <a id="more"></a></excerpt></p>
+<h2 id="关于CSS3的新特性"><a href="#关于CSS3的新特性" class="headerlink" title="关于CSS3的新特性"></a>关于CSS3的新特性</h2><h3 id="CSS3模块的划分"><a href="#CSS3模块的划分" class="headerlink" title="CSS3模块的划分"></a>CSS3模块的划分</h3><ul>
+<li>选择器</li>
+<li>框模型</li>
+<li>背景和边框</li>
+<li>文本效果</li>
+<li>2D/3D 转换</li>
+<li>动画</li>
+<li>多列布局</li>
+<li>用户界面<h3 id="CSS3边框"><a href="#CSS3边框" class="headerlink" title="CSS3边框"></a>CSS3边框</h3><h4 id="属性-border-radius-box-shadow-border-image"><a href="#属性-border-radius-box-shadow-border-image" class="headerlink" title="属性 border-radius box-shadow border-image"></a>属性<br> <strong>border-radius</strong><br> <strong>box-shadow</strong><br> <strong>border-image</strong></h4><h2 id="border-image-边框"><a href="#border-image-边框" class="headerlink" title="border-image(边框)"></a>border-image(边框)</h2><h3 id="border-image-source-用在边框的图片的路径。-border-image-slice-图片边框向内偏移。-border-image-width-图片边框的宽度。-border-image-outset-边框图像区域超出边框的量。-border-image-repeat-图像边框是否应平铺-repeated-、铺满-rounded-或拉伸-stretched-。"><a href="#border-image-source-用在边框的图片的路径。-border-image-slice-图片边框向内偏移。-border-image-width-图片边框的宽度。-border-image-outset-边框图像区域超出边框的量。-border-image-repeat-图像边框是否应平铺-repeated-、铺满-rounded-或拉伸-stretched-。" class="headerlink" title="border-image-source  用在边框的图片的路径。 border-image-slice       图片边框向内偏移。      border-image-width       图片边框的宽度。     border-image-outset   边框图像区域超出边框的量。     border-image-repeat    图像边框是否应平铺(repeated)、铺满(rounded)或拉伸(stretched)。"></a><strong>border-image-source  用在边框的图片的路径。</strong> <br><strong>border-image-slice       图片边框向内偏移。</strong>    <br>  <strong>border-image-width       图片边框的宽度。</strong>    <br> <strong>border-image-outset   边框图像区域超出边框的量。</strong>    <br> <strong>border-image-repeat    图像边框是否应平铺(repeated)、铺满(rounded)或拉伸(stretched)。</strong></h3><h2 id="border-radius-圆角"><a href="#border-radius-圆角" class="headerlink" title="border-radius(圆角)"></a>border-radius(圆角)</h2><h3 id="length-定义圆角的形状。-以百分比定义圆角的形状。-具有上下左右四个属性"><a href="#length-定义圆角的形状。-以百分比定义圆角的形状。-具有上下左右四个属性" class="headerlink" title="length 定义圆角的形状。 %    以百分比定义圆角的形状。 具有上下左右四个属性"></a><strong>length 定义圆角的形状。</strong> <br><strong>%    以百分比定义圆角的形状。</strong><br> <strong>具有上下左右四个属性</strong></h3><h2 id="box-shadow-阴影"><a href="#box-shadow-阴影" class="headerlink" title="box-shadow(阴影)"></a>box-shadow(阴影)</h2><h3 id="h-shadow-必需。水平阴影的位置。允许负值。v-shadow-必需。垂直阴影的位置。允许负值。blur-可选。模糊距离。spread-可选。阴影的尺寸。color-可选。阴影的颜色。请参阅-CSS-颜色值。inset-可选。将外部阴影-outset-改为内部阴影。"><a href="#h-shadow-必需。水平阴影的位置。允许负值。v-shadow-必需。垂直阴影的位置。允许负值。blur-可选。模糊距离。spread-可选。阴影的尺寸。color-可选。阴影的颜色。请参阅-CSS-颜色值。inset-可选。将外部阴影-outset-改为内部阴影。" class="headerlink" title="h-shadow 必需。水平阴影的位置。允许负值。v-shadow 必需。垂直阴影的位置。允许负值。blur 可选。模糊距离。spread 可选。阴影的尺寸。color 可选。阴影的颜色。请参阅 CSS 颜色值。inset 可选。将外部阴影 (outset) 改为内部阴影。"></a><strong>h-shadow 必需。水平阴影的位置。允许负值。</strong><br><strong>v-shadow 必需。垂直阴影的位置。允许负值。</strong><br><strong>blur 可选。模糊距离。</strong><br><strong>spread 可选。阴影的尺寸。</strong><br><strong>color 可选。阴影的颜色。请参阅 CSS 颜色值。</strong><br><strong>inset 可选。将外部阴影 (outset) 改为内部阴影。</strong></h3><h3 id="CSS3-背景"><a href="#CSS3-背景" class="headerlink" title="CSS3 背景"></a>CSS3 背景</h3><h4 id="属性background-sizebackground-origin"><a href="#属性background-sizebackground-origin" class="headerlink" title="属性background-sizebackground-origin"></a>属性<br><strong>background-size</strong><br><strong>background-origin</strong></h4><h2 id="background-size-图片尺寸"><a href="#background-size-图片尺寸" class="headerlink" title="background-size(图片尺寸)"></a>background-size(图片尺寸)</h2><h3 id="您能够以像素或百分比规定尺寸。如果以百分比规定尺寸，那么尺寸相对于父元素的宽度和高度。length-设置背景图像的高度和宽度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为-“auto”。percentage-以父元素的百分比来设置背景图像的宽度和高度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为-“auto”。cover-把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。contain-把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。"><a href="#您能够以像素或百分比规定尺寸。如果以百分比规定尺寸，那么尺寸相对于父元素的宽度和高度。length-设置背景图像的高度和宽度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为-“auto”。percentage-以父元素的百分比来设置背景图像的宽度和高度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为-“auto”。cover-把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。contain-把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。" class="headerlink" title="您能够以像素或百分比规定尺寸。如果以百分比规定尺寸，那么尺寸相对于父元素的宽度和高度。length 设置背景图像的高度和宽度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为 “auto”。percentage 以父元素的百分比来设置背景图像的宽度和高度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为 “auto”。cover 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。contain    把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。"></a><strong>您能够以像素或百分比规定尺寸。如果以百分比规定尺寸，那么尺寸相对于父元素的宽度和高度。</strong><br><strong>length 设置背景图像的高度和宽度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为 “auto”。</strong><br><strong>percentage 以父元素的百分比来设置背景图像的宽度和高度。第一个值设置宽度，第二个值设置高度。如果只设置一个值，则第二个值会被设置为 “auto”。</strong><br><strong>cover 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。</strong><br><strong>contain    把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。</strong></h3><h2 id="background-origin（背景图片的定位区域）"><a href="#background-origin（背景图片的定位区域）" class="headerlink" title="background-origin（背景图片的定位区域）"></a>background-origin（背景图片的定位区域）</h2><h3 id="padding-box-背景图像相对于内边距框来定位。-border-box-背景图像相对于边框盒来定位。content-box-背景图像相对于内容框来定位。"><a href="#padding-box-背景图像相对于内边距框来定位。-border-box-背景图像相对于边框盒来定位。content-box-背景图像相对于内容框来定位。" class="headerlink" title="padding-box 背景图像相对于内边距框来定位。 border-box 背景图像相对于边框盒来定位。content-box 背景图像相对于内容框来定位。"></a><strong>padding-box 背景图像相对于内边距框来定位。</strong> <br><strong>border-box 背景图像相对于边框盒来定位。</strong><br><strong>content-box 背景图像相对于内容框来定位。</strong></h3><h2 id="CSS3-多重背景图片"><a href="#CSS3-多重背景图片" class="headerlink" title="CSS3 多重背景图片"></a>CSS3 多重背景图片</h2><h3 id="background-image-url-bg-flower-gif-url-bg-flower-2-gif"><a href="#background-image-url-bg-flower-gif-url-bg-flower-2-gif" class="headerlink" title="background-image:url(bg_flower.gif),url(bg_flower_2.gif);"></a><strong>background-image:url(bg_flower.gif),url(bg_flower_2.gif);</strong></h3><h2 id="background-clip-背景的绘制区域"><a href="#background-clip-背景的绘制区域" class="headerlink" title="background-clip(背景的绘制区域)"></a>background-clip(背景的绘制区域)</h2><h3 id="border-box-背景被裁剪到边框盒。padding-box-背景被裁剪到内边距框。content-box-背景被裁剪到内容框。"><a href="#border-box-背景被裁剪到边框盒。padding-box-背景被裁剪到内边距框。content-box-背景被裁剪到内容框。" class="headerlink" title="border-box 背景被裁剪到边框盒。padding-box 背景被裁剪到内边距框。content-box 背景被裁剪到内容框。"></a><strong>border-box 背景被裁剪到边框盒。</strong><br><strong>padding-box 背景被裁剪到内边距框。</strong><br><strong>content-box 背景被裁剪到内容框。</strong></h3><h3 id="CSS3-文本效果"><a href="#CSS3-文本效果" class="headerlink" title="CSS3 文本效果"></a>CSS3 文本效果</h3><h4 id="属性text-shadowword-wraphanging-punctuation-punctuation-trim"><a href="#属性text-shadowword-wraphanging-punctuation-punctuation-trim" class="headerlink" title="属性text-shadowword-wraphanging-punctuation punctuation-trim"></a>属性<br><strong>text-shadow</strong><br><strong>word-wrap</strong><br><strong>hanging-punctuation</strong><br><strong> punctuation-trim</strong></h4><h2 id="text-shadow-文字阴影"><a href="#text-shadow-文字阴影" class="headerlink" title="text-shadow(文字阴影)"></a>text-shadow(文字阴影)</h2><h3 id="h-shadow-必需。水平阴影的位置。允许负值。v-shadow-必需。垂直阴影的位置。允许负值。blur-可选。模糊的距离。color-可选。阴影的颜色。参阅-CSS-颜色值。"><a href="#h-shadow-必需。水平阴影的位置。允许负值。v-shadow-必需。垂直阴影的位置。允许负值。blur-可选。模糊的距离。color-可选。阴影的颜色。参阅-CSS-颜色值。" class="headerlink" title="h-shadow 必需。水平阴影的位置。允许负值。v-shadow 必需。垂直阴影的位置。允许负值。blur 可选。模糊的距离。color 可选。阴影的颜色。参阅 CSS 颜色值。"></a><strong>h-shadow 必需。水平阴影的位置。允许负值。</strong><br><strong>v-shadow 必需。垂直阴影的位置。允许负值。</strong><br><strong>blur 可选。模糊的距离。</strong><br><strong>color 可选。阴影的颜色。参阅 CSS 颜色值。</strong></h3><h2 id="word-wrap-对长的不可分割的单词进行分割并换行到下一行。"><a href="#word-wrap-对长的不可分割的单词进行分割并换行到下一行。" class="headerlink" title="word-wrap(对长的不可分割的单词进行分割并换行到下一行。)"></a>word-wrap(对长的不可分割的单词进行分割并换行到下一行。)</h2><h3 id="normal-只在允许的断字点换行（浏览器保持默认处理）。break-word-在长单词或-URL-地址内部进行换行。"><a href="#normal-只在允许的断字点换行（浏览器保持默认处理）。break-word-在长单词或-URL-地址内部进行换行。" class="headerlink" title="normal 只在允许的断字点换行（浏览器保持默认处理）。break-word 在长单词或 URL 地址内部进行换行。"></a><strong>normal 只在允许的断字点换行（浏览器保持默认处理）。</strong><br><strong>break-word 在长单词或 URL 地址内部进行换行。</strong></h3><h2 id="hanging-punctuation-标点字符是否位于线框之外。主流浏览器都不支持-hanging-punctuation-属性。"><a href="#hanging-punctuation-标点字符是否位于线框之外。主流浏览器都不支持-hanging-punctuation-属性。" class="headerlink" title="hanging-punctuation(标点字符是否位于线框之外。主流浏览器都不支持 hanging-punctuation 属性。)"></a>hanging-punctuation(标点字符是否位于线框之外。主流浏览器都不支持 hanging-punctuation 属性。)</h2><h3 id="none-不在文本整行的开头还是结尾的行框之外放置标签符号。first-标点附着在首行开始边缘之外。last-标点附着在首行结尾边缘之外。allow-end-force-end"><a href="#none-不在文本整行的开头还是结尾的行框之外放置标签符号。first-标点附着在首行开始边缘之外。last-标点附着在首行结尾边缘之外。allow-end-force-end" class="headerlink" title="none 不在文本整行的开头还是结尾的行框之外放置标签符号。first 标点附着在首行开始边缘之外。last 标点附着在首行结尾边缘之外。allow-end    force-end"></a><strong>none 不在文本整行的开头还是结尾的行框之外放置标签符号。</strong><br><strong>first 标点附着在首行开始边缘之外。</strong><br><strong>last 标点附着在首行结尾边缘之外。</strong><br><strong>allow-end    </strong><br><strong>force-end</strong></h3><h2 id="punctuation-trim-是否对标点字符进行修剪。目前主流浏览器都不支持-punctuation-trim-属性。"><a href="#punctuation-trim-是否对标点字符进行修剪。目前主流浏览器都不支持-punctuation-trim-属性。" class="headerlink" title="punctuation-trim(是否对标点字符进行修剪。目前主流浏览器都不支持 punctuation-trim 属性。)"></a>punctuation-trim(是否对标点字符进行修剪。目前主流浏览器都不支持 punctuation-trim 属性。)</h2><h3 id="none-不修剪开启或闭合标点符号。start-修剪每行结尾的开启标点符号。end-修剪每行结尾的闭合标点符号。allow-end-adjacent"><a href="#none-不修剪开启或闭合标点符号。start-修剪每行结尾的开启标点符号。end-修剪每行结尾的闭合标点符号。allow-end-adjacent" class="headerlink" title="none 不修剪开启或闭合标点符号。start 修剪每行结尾的开启标点符号。end 修剪每行结尾的闭合标点符号。allow-end**adjacent"></a><strong>none 不修剪开启或闭合标点符号。</strong><br><strong>start 修剪每行结尾的开启标点符号。</strong><br><strong>end 修剪每行结尾的闭合标点符号。</strong><br><strong>allow-end**</strong><br><strong>adjacent</strong></h3></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt; CSS3：&lt;/strong&gt;&lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="前端开发" scheme="http://gdreamer.newmt.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="CSS" scheme="http://gdreamer.newmt.top/tags/CSS/"/>
+    
+      <category term="html" scheme="http://gdreamer.newmt.top/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Github常用命令行</title>
-    <link href="http://xinmenti.newmt.top/2017/08/07/Github/"/>
-    <id>http://xinmenti.newmt.top/2017/08/07/Github/</id>
+    <link href="http://gdreamer.newmt.top/2017/08/07/Github/"/>
+    <id>http://gdreamer.newmt.top/2017/08/07/Github/</id>
     <published>2017-08-07T10:24:20.000Z</published>
-    <updated>2017-08-07T10:30:15.457Z</updated>
+    <updated>2017-08-07T10:31:23.793Z</updated>
     
     <content type="html"><![CDATA[<p><strong> Github：</strong><excerpt in="" index="" |="" 首页摘要=""><br>Github常用命令行的整理<br> <a id="more"></a></excerpt></p>
 <h2 id="Github常用命令行"><a href="#Github常用命令行" class="headerlink" title="Github常用命令行"></a>Github常用命令行</h2><ol>
@@ -103,19 +138,19 @@
     
     </summary>
     
-      <category term="开发工具" scheme="http://xinmenti.newmt.top/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+      <category term="开发工具" scheme="http://gdreamer.newmt.top/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="开源" scheme="http://xinmenti.newmt.top/tags/%E5%BC%80%E6%BA%90/"/>
+      <category term="开源" scheme="http://gdreamer.newmt.top/tags/%E5%BC%80%E6%BA%90/"/>
     
-      <category term="Github" scheme="http://xinmenti.newmt.top/tags/Github/"/>
+      <category term="Github" scheme="http://gdreamer.newmt.top/tags/Github/"/>
     
   </entry>
   
   <entry>
     <title>Bootstrap</title>
-    <link href="http://xinmenti.newmt.top/2017/08/07/bootstrap/"/>
-    <id>http://xinmenti.newmt.top/2017/08/07/bootstrap/</id>
+    <link href="http://gdreamer.newmt.top/2017/08/07/bootstrap/"/>
+    <id>http://gdreamer.newmt.top/2017/08/07/bootstrap/</id>
     <published>2017-08-07T09:18:30.000Z</published>
     <updated>2017-08-07T09:35:59.225Z</updated>
     
@@ -195,14 +230,14 @@
     
     </summary>
     
-      <category term="前端开发" scheme="http://xinmenti.newmt.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+      <category term="前端开发" scheme="http://gdreamer.newmt.top/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="HTML" scheme="http://xinmenti.newmt.top/tags/HTML/"/>
+      <category term="HTML" scheme="http://gdreamer.newmt.top/tags/HTML/"/>
     
-      <category term="框架" scheme="http://xinmenti.newmt.top/tags/%E6%A1%86%E6%9E%B6/"/>
+      <category term="框架" scheme="http://gdreamer.newmt.top/tags/%E6%A1%86%E6%9E%B6/"/>
     
-      <category term="Bootstrap" scheme="http://xinmenti.newmt.top/tags/Bootstrap/"/>
+      <category term="Bootstrap" scheme="http://gdreamer.newmt.top/tags/Bootstrap/"/>
     
   </entry>
   
